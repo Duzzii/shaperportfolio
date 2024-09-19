@@ -23,17 +23,17 @@ const About = () => {
       case 'education':
         return (
           <ul className="list-disc pl-6">
-            <li>BSc in Computer Science - ABC University</li>
-            <li>Web Development Bootcamp - XYZ Academy</li>
-            <li>JavaScript Mastery Course - Online</li>
+            <li>BSc in Computer Science - University of Pretoria</li>
+            <li>Fullstack Development Learnership - Shaper </li>
+            {/* <li>JavaScript Mastery Course - Online</li> */}
           </ul>
         );
       case 'certifications':
         return (
           <ul className="list-disc pl-6">
-            <li>Certified React Developer</li>
-            <li>Full Stack Web Developer Certificate</li>
-            <li>AWS Certified Solutions Architect</li>
+            <li>Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</li>
+            <li>Microsoft Certified: Azure AI Fundamentals</li>
+            {/* <li>AWS Certified Solutions Architect</li> */}
           </ul>
         );
       default:

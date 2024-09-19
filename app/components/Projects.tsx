@@ -11,7 +11,8 @@ const projects = [
     link: 'https://github.com/yourusername/portfolio',
   },
   {
-    title: 'Task Management App',
+    title: 'eMzanziplaza
+    ,
     description:
       'A full-stack task management app that allows users to track their tasks and projects. Built with React, Node.js, and MongoDB.',
     technologies: ['React', 'Node.js', 'MongoDB'],
