@@ -49,13 +49,12 @@ const HeroSection: React.FC = () => {
       <div className="absolute top-0 right-0 h-full w-1/2 flex items-center justify-center">
         {/* 3D character placeholder */}
         <div className="relative w-[400px] h-[400px] rounded-full bg-white/[.1] shadow-lg p-8">
-        <Image
-            src="/assets/image.png" // Path relative to the public directory
-            alt="Your image description"
-            layout="fill"
-            objectFit="contain"
-            className="rounded-full"
+        <img
+            src="https://www.shareicon.net/data/128x128/2016/01/24/708382_people_512x512.png"
+            alt="Profile picture"
+            className="rounded-full w-48 h-48 md:w-64 md:h-64 lg:w-60 lg:h-60 border-4 border-purple-600 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out"
         />
+
         </div>
       </div>
 

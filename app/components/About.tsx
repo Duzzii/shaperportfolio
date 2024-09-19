@@ -45,11 +45,13 @@ const About = () => {
     <div className="min-h-screen bg-gray-900 text-white flex justify-center items-center">
       <div className="max-w-4xl w-full p-8 flex flex-col md:flex-row gap-8">
         <div className="flex-1 flex justify-center">
-          <img
-            src="/images/computer-setup.png" // Add your own image in the public folder
+        <img
+            src="https://cloud.z.com/vn/wp-content/uploads/2023/06/top-ide-software-770x433-1.jpeg" // Correct path based on your file structure
             alt="Computer setup"
             className="rounded-md shadow-lg object-cover"
-          />
+            />
+
+
         </div>
         <div className="flex-1">
           <h1 className="text-4xl font-bold mb-4">About Me</h1>
