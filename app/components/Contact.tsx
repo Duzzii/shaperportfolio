@@ -29,13 +29,55 @@ const Contact = () => {
           <p className="mb-6 leading-relaxed">
             I’m always open to discussing web development or any project ideas you have in mind. Feel free to drop a message and I’ll do my best to get back to you soon!
           </p>
+
+          {/* Contact Details */}
+          <div className="space-y-4 mb-6">
+            <div>
+              <span className="font-bold">LinkedIn:</span>{' '}
+              <a
+                href="https://www.linkedin.com/in/your-profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-400 hover:text-purple-600"
+              >
+                linkedin.com/in/your-profile
+              </a>
+            </div>
+            <div>
+              <span className="font-bold">Email:</span>{' '}
+              <a href="mailto:your.email@example.com" className="text-purple-400 hover:text-purple-600">
+                your.email@example.com
+              </a>
+            </div>
+            <div>
+              <span className="font-bold">Phone:</span>{' '}
+              <a href="tel:+27609060777" className="text-purple-400 hover:text-purple-600">
+                +27 (609) 060-777
+              </a>
+            </div>
+          </div>
+
           <div className="flex space-x-4">
             {/* Social Icons */}
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="...github icon path..." /></svg>
+            <a
+              href="https://github.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white"
+            >
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="...github icon path..." />
+              </svg>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="...linkedin icon path..." /></svg>
+            <a
+              href="https://linkedin.com/in/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white"
+            >
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="...linkedin icon path..." />
+              </svg>
             </a>
           </div>
         </div>
