@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 
 const HeroSection: React.FC = () => {
   const [roles, setRoles] = useState([
@@ -36,45 +35,23 @@ const HeroSection: React.FC = () => {
         </p>
         {/* Call to Action Buttons */}
         <div className="flex space-x-4">
-          <button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg shadow-lg text-white font-semibold hover:bg-opacity-80">
-            Hire Me
-          </button>
-          <button className="px-6 py-2 border border-white rounded-lg text-white font-semibold hover:bg-white hover:text-black transition">
-            Download CV
-          </button>
+          <a href="#contact">
+            <button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg shadow-lg text-white font-semibold hover:bg-opacity-80">
+              Hire Me
+            </button>
+          </a>
         </div>
       </div>
 
       {/* Right Half with Image */}
       <div className="absolute top-0 right-0 h-full w-1/2 flex items-center justify-center">
-        {/* 3D character placeholder */}
         <div className="relative w-[400px] h-[400px] rounded-full bg-white/[.1] shadow-lg p-8">
-        <img
+          <img
             src="https://www.shareicon.net/data/128x128/2016/01/24/708382_people_512x512.png"
             alt="Profile picture"
-            className="rounded-full w-48 h-48 md:w-64 md:h-64 lg:w-60 lg:h-60 border-4 border-purple-600 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out"
-        />
-
-        </div>
-      </div>
-
-      {/* Scrolling Arrow */}
-      <div className="absolute bottom-10 text-white flex flex-col items-center">
-        {/* <span className="text-sm">Scroll down</span>
-        <svg
-          className="w-6 h-6 mt-2 animate-bounce"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M19 9l-7 7-7-7"
+            className="rounded-full w-full h-full object-cover shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out"
           />
-        </svg> */}
+        </div>
       </div>
     </section>
   );

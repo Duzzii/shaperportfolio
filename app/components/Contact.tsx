@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+    <div id="contact" className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
       <div className="max-w-4xl w-full p-8 flex flex-col md:flex-row gap-8">
         {/* Left Section */}
         <div className="flex-1">
@@ -35,18 +35,18 @@ const Contact = () => {
             <div>
               <span className="font-bold">LinkedIn:</span>{' '}
               <a
-                href="https://www.linkedin.com/in/your-profile"
+                href="https://www.linkedin.com/in/mduduzi-sibiya-b48192192"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:text-purple-600"
               >
-                linkedin.com/in/your-profile
+                www.linkedin.com/in/mduduzi-sibiya-b48192192
               </a>
             </div>
             <div>
               <span className="font-bold">Email:</span>{' '}
-              <a href="mailto:your.email@example.com" className="text-purple-400 hover:text-purple-600">
-                your.email@example.com
+              <a href="mailto:mduduzi.sibiya1920@gmail.com" className="text-purple-400 hover:text-purple-600">
+               mduduzi.sibiya1920@gmail.com
               </a>
             </div>
             <div>
@@ -70,7 +70,7 @@ const Contact = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://linkedin.com/in/mduduzi-sibiya-b48192192"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
