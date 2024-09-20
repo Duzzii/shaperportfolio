@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between p-4 lg:py-6">
         {/* Logo / Branding */}
         <Link href="/" className="text-2xl lg:text-4xl text-white font-semibold">
-          Mduduzi
+          Mduduzi Sibiya
         </Link>
 
         {/* Desktop Menu */}
