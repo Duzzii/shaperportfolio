@@ -8,28 +8,35 @@ const projects = [
     description:
       'A personal portfolio to showcase my web development skills and projects. Built with Next.js and Tailwind CSS.',
     technologies: ['Next.js', 'Tailwind CSS', 'JavaScript'],
-    link: 'https://github.com/yourusername/portfolio',
+    link: 'https://github.com/Duzzii/shaperportfolio',
   },
   {
-    title: 'Task Management App',
+    title: 'xPOSE Project',
     description:
-      'A full-stack task management app that allows users to track their tasks and projects. Built with React, Node.js, and MongoDB.',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    link: 'https://github.com/yourusername/task-manager',
+      'xPOSE is a photo-sharing app for events that allows users to create events, invite participants, and share event or QR codes.',
+    technologies: ['Angular', 'Node.js', 'MongoDB'],
+    link: 'https://github.com/COS301-SE-2023/xPOSE',
   },
   {
     title: 'E-commerce Platform',
     description:
-      'An e-commerce platform with payment gateway integration for selling products online. Built with React and Firebase.',
-    technologies: ['React', 'Firebase', 'Stripe API'],
+      'An e-commerce platform with payment gateway integration for selling products online. Built with Angular and Spring Boot.',
+    technologies: ['Angular', 'postgresSQL', 'Rest API'],
     link: 'https://github.com/yourusername/ecommerce-platform',
   },
   {
-    title: 'Chat Application',
+    title: 'Temp Chat Application',
     description:
-      'A real-time chat application built with WebSocket and React, featuring group chats and notifications.',
-    technologies: ['React', 'Socket.io', 'Express'],
-    link: 'https://github.com/yourusername/chat-app',
+      'A real-time chat application built with WebSocket and Angular, featuring group chats.',
+    technologies: ['Angular', 'Socket.io', 'Express'],
+    link: 'https://github.com/Duzzii/Logi_Chat',
+  },
+  {
+    title: 'Twenty4',
+    description:
+      'A social media application that: Re-incentives users for quality content, rewards users for accurate content and reminds us that time is valuable.',
+    technologies: ['Angular', 'Firebase'],
+    link: 'https://github.com/SwagDemons69/COS301MP',
   },
 ];
 

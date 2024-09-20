@@ -60,7 +60,7 @@ const HeroSection: React.FC = () => {
 
       {/* Scrolling Arrow */}
       <div className="absolute bottom-10 text-white flex flex-col items-center">
-        <span className="text-sm">Scroll down</span>
+        {/* <span className="text-sm">Scroll down</span>
         <svg
           className="w-6 h-6 mt-2 animate-bounce"
           fill="none"
@@ -74,7 +74,7 @@ const HeroSection: React.FC = () => {
             strokeWidth="2"
             d="M19 9l-7 7-7-7"
           />
-        </svg>
+        </svg> */}
       </div>
     </section>
   );

@@ -43,13 +43,13 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex justify-center items-center">
-      <div className="max-w-4xl w-full p-8 flex flex-col md:flex-row gap-8">
+      <div className=" w-full p-8 flex flex-col md:flex-row gap-8">
         <div className="flex-1 flex justify-center">
         <img
             src="https://cloud.z.com/vn/wp-content/uploads/2023/06/top-ide-software-770x433-1.jpeg" // Correct path based on your file structure
             alt="Computer setup"
             className="rounded-md shadow-lg object-cover"
-            />
+        />
 
 
         </div>
