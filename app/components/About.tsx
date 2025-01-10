@@ -46,8 +46,7 @@ const About = () => {
       <div className=" w-full p-8 flex flex-col md:flex-row gap-8">
         <div className="flex-1 flex justify-center">
         <img
-            src="https://cloud.z.com/vn/wp-content/uploads/2023/06/top-ide-software-770x433-1.jpeg" // Correct path based on your file structure
-            alt="Computer setup"
+            src="https://cloud.z.com/vn/wp-content/uploads/2023/06/top-ide-software-770x433-1.jpeg"
             className="rounded-md shadow-lg object-cover"
         />
 
@@ -59,7 +58,7 @@ const About = () => {
             I am a passionate full-stack developer with expertise in building interactive
             and responsive web applications. I have hands-on experience with
             JavaScript, TypeScript, React, Next.js, Node.js, Express, and more.
-            I'm always keen to learn new technologies and improve my skills.
+            I am always keen to learn new technologies and improve my skills.
             I thrive in collaborative environments and enjoy working with teams
             to build amazing applications that solve real-world problems.
           </p>

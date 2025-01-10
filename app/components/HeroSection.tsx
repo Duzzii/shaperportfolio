@@ -1,10 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 
 const HeroSection: React.FC = () => {
-  const [roles, setRoles] = useState([
+  const [roles] = useState([
     "Web Developer",
     "UI/UX Designer",
     "Creator",
@@ -25,7 +24,7 @@ const HeroSection: React.FC = () => {
       {/* Left Half */}
       <div className="absolute top-0 left-0 h-full w-1/2 bg-gradient-to-tl from-purple-600 to-blue-500 flex flex-col justify-center pl-20">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
-          Hello, I'm
+          Hello, I am
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff4d94] to-[#ff6bd6]">
             {roles[currentRoleIndex]}.

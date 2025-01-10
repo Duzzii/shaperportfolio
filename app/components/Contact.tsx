@@ -25,7 +25,7 @@ const Contact = () => {
       <div className="max-w-4xl w-full p-8 flex flex-col md:flex-row gap-8">
         {/* Left Section */}
         <div className="flex-1">
-          <h2 className="text-3xl font-bold mb-4">Let's Get In Touch</h2>
+          <h2 className="text-3xl font-bold mb-4">Let us Get In Touch</h2>
           <p className="mb-6 leading-relaxed">
             I’m always open to discussing web development or any project ideas you have in mind. Feel free to drop a message and I’ll do my best to get back to you soon!
           </p>
