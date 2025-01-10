@@ -12,8 +12,8 @@ const About = () => {
           <ul className="list-disc pl-6">
             <li>Next.js</li>
             <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
+            <li>Angular</li>
+            <li>Java</li>
             <li>PostgreSQL</li>
             <li>TypeScript</li>
             <li>JavaScript</li>
@@ -33,7 +33,7 @@ const About = () => {
           <ul className="list-disc pl-6">
             <li>Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</li>
             <li>Microsoft Certified: Azure AI Fundamentals</li>
-            {/* <li>AWS Certified Solutions Architect</li> */}
+          
           </ul>
         );
       default:
@@ -42,7 +42,7 @@ const About = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex justify-center items-center">
+    <div id="about" className="min-h-screen bg-gray-900 text-white flex justify-center items-center">
       <div className=" w-full p-8 flex flex-col md:flex-row gap-8">
         <div className="flex-1 flex justify-center">
         <img
