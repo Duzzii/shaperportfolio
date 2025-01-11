@@ -67,9 +67,8 @@ const Projects = () => {
     return projects.map((project, index) => (
       <div id="projects" key={index} className="relative bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
         {/* Video Background for Movie Projects */}
-        {activeTab === 'movie' && project.video && (
+        {activeTab === 'movie' && (
           <video
-            src={project.video}
             autoPlay
             loop
             muted
